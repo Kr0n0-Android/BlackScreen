@@ -1,0 +1,4 @@
+#!/system/xbin/busybox sh
+
+settings put global policy_control immersive.full=*
+am start metrixapp.caseonit.blackscreen/metrixapp.caseonit.blackscreen.MainActivity 2>/dev/null 2>&1
